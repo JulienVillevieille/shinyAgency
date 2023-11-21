@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { createGlobalStyle } from 'styled-components';
+
 import './index.css';
 import Home from './pages/Home';
 import Survey from './pages/Survey'
@@ -8,7 +10,6 @@ import Header from './components/Header'
 import Results from './pages/Results'
 import Freelances from './pages/Freelances'
 import Error from './components/Error'
-import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
     div {
